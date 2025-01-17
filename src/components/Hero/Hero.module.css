@@ -1,0 +1,94 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.title{
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 33px;
+}
+
+.description{
+    font-size: 20px;
+    margin-bottom: 25px;
+   
+}
+
+.header{
+    font-size: 18px;
+}
+
+.miffy{
+    width: 20%;
+    z-index: 1;
+    margin-right: 90px;
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/* define floating animation */
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 5px);
+    }
+    100% {
+        transform: translate(0, -5px);
+    }
+}
+
+.blur{
+    position: absolute;
+    width: 50vw;
+    height: 40vw;
+    min-width: 350px;
+    top: -128px;
+    left: 10vw;
+    border-radius: 764px;
+    background: rgb(238, 212, 250);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .content{
+        align-items: center;
+    }
+
+    .description{
+        text-align: center;
+    }
+
+    .miffy{
+        margin-left: 20%;
+        margin-bottom: 15px;
+    }
+}
+

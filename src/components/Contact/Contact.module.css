@@ -1,0 +1,95 @@
+@import "../../vars.css";
+
+.container{
+    color: var(--color--text);
+    margin-top: 120px;
+    display: flex;
+    gap: 10px;
+    color: black;
+    background: var(--color-primary);
+    filter: brightness(165%);
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.text h1{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.text h2{
+    margin-top: 50px;
+    margin-left: 700px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.text h1{
+    margin-left: 60px;
+    margin-top: 50px;
+    letter-spacing: 1.2px;
+}
+
+.text p{
+    flex-direction: column;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+
+.text small{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.link a{
+    color: var(--color-text);
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 830px) {
+
+    .container{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+   
+    .text h2 {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+
+    .links{
+        margin-top: 15px;
+    }
+
+    .link a{
+        text-align: left;
+    }
+
+    .text p{
+        margin-top: 20px;
+    }
+
+}

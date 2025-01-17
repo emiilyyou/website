@@ -1,0 +1,20 @@
+[
+    {
+      "role": "Software Developer",
+      "organization": "Hoagie Club",
+      "startDate": "Sep 2023",
+      "endDate": "Present",
+      "experiences": ["Designing an application that assists students with planning their 4-year academic trajectories"],
+      "link": "https://club.hoagie.io/",
+      "imageSrc": "assets/experience/hoagielogo.png"
+    },
+    {
+      "role": "Web Developer",
+      "organization": "HackPrinceton",
+      "startDate": "Feb 2024",
+      "endDate": "Present",
+      "experiences": ["Creating a full-stack website that allows hackers to register for biannual hackathon"],
+      "link": "https://www.hackprinceton.com/",
+      "imageSrc": "assets/experience/hackprinceton-logo.png"
+    }
+  ]
