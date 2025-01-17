@@ -9,7 +9,7 @@ export const About = () => {
             <div className={styles.blur}> / </div>
             <h2 className={styles.title}> About</h2>
             <div className={styles.content}>
-                <img src="/assets/about/self.png" className={styles.profilePic} alt="profile picture" />
+                <img src="/website/assets/about/self.png" className={styles.profilePic} alt="profile picture" />
 
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>

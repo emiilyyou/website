@@ -1,30 +1,30 @@
 [
     {
       "title": "HTML",
-      "imageSrc": "assets/skills/html.png"
+      "imageSrc": "website/assets/skills/html.png"
     },
     {
       "title": "CSS",
-      "imageSrc": "assets/skills/css.png"
-    },
-    {
-      "title": "React",
-      "imageSrc": "assets/skills/react.png"
+      "imageSrc": "website/assets/skills/css.png"
     },
     {
       "title": "JavaScript",
-      "imageSrc": "assets/skills/javascript.png"
+      "imageSrc": "website/assets/skills/javascript.png"
     },
     {
-      "title": "Figma",
-      "imageSrc": "assets/skills/figma.png"
+      "title": "React",
+      "imageSrc": "website/assets/skills/react.png"
     },
     {
         "title": "Java",
-        "imageSrc": "assets/skills/java.png"
+        "imageSrc": "website/assets/skills/java.png"
     },
     {
         "title": "C",
-        "imageSrc": "assets/skills/c.png"
+        "imageSrc": "website/assets/skills/c.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "website/assets/skills/figma.png"
     }
   ]

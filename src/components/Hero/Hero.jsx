@@ -13,7 +13,7 @@ export const Hero = () => {
                 <small className={styles.header}> Building applications @ <a href="https://club.hoagie.io/"> Hoagie Club </a>
                 and <a href="https://www.hackprinceton.com/"> HackPrinceton </a></small>
             </div>
-            <img src="/assets/hero/miffy.svg" className={styles.miffy} alt="miffy" />
+            <img src="/website/assets/hero/miffy.svg" className={styles.miffy} alt="miffy" />
             <div className={styles.blur} />
     
         </section>

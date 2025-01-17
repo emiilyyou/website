@@ -6,8 +6,8 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     // Static paths to the public folder
-    const menuIcon = "/assets/nav/menuIcon.png";
-    const closeMenu = "/assets/nav/closeIcon.png";
+    const menuIcon = "/website/assets/nav/menuIcon.png";
+    const closeMenu = "/website/assets/nav/closeIcon.png";
 
     return (
         <nav className={styles.navbar}> 

@@ -6,7 +6,7 @@
       "endDate": "Present",
       "experiences": ["Designing an application that assists students with planning their 4-year academic trajectories"],
       "link": "https://club.hoagie.io/",
-      "imageSrc": "assets/experience/hoagielogo.png"
+      "imageSrc": "website/assets/experience/hoagielogo.png"
     },
     {
       "role": "Web Developer",
@@ -15,6 +15,6 @@
       "endDate": "Present",
       "experiences": ["Creating a full-stack website that allows hackers to register for biannual hackathon"],
       "link": "https://www.hackprinceton.com/",
-      "imageSrc": "assets/experience/hackprinceton-logo.png"
+      "imageSrc": "website/assets/experience/hackprinceton-logo.png"
     }
   ]
