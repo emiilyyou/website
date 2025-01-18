@@ -1,0 +1,167 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    color: var(--color-text);
+    margin-top: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 1;
+}
+
+.title{
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 14px;
+    z-index: 1;
+    position: relative;
+}
+
+.skills{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 30px;
+    z-index: 1;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+.skillImageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 90px;
+}
+
+.skillImageContainer img{
+    width: 75px;
+    z-index: 2;
+}
+
+.skill p{
+    font-size: 20px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+}
+
+
+.history{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.historyItem{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 19px;
+}
+
+.historyItem a {
+    display: inline-block; 
+    text-decoration: none; 
+}
+
+.historyItem img{
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+/* define floating animation */
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05)
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.historyItemDetails{
+    font-family: var(--font-roboto);
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.historyItemDetails h3{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 5px; 
+}
+
+.historyItemDetails p{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1.05px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+.blur{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    top: 90px;
+    left: 15vw;
+    background: rgb(238, 212, 250);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+
+@media screen and (max-width: 830px) {
+    .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+
+    .title{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .skills{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
+        padding-bottom: 20px;
+    }
+
+    .history{
+        width: 100%;
+        gap: 25px;
+    }
+}

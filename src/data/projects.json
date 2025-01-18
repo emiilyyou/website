@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Portfolio",
+        "imageSrc": "assets/projects/miffy.svg",
+        "description": "Built a personal portfolio showcasing previous experiences & projects",
+        "skills": ["React", "JavaScript", "CSS"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+      "title": "Fraud Detection",
+      "imageSrc": "assets/projects/fraud-detection.png",
+      "description": "Implemented a machine learning model to detect fraud credit card transactions",
+      "skills": ["Java"],
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Seam Carving",
+      "imageSrc": "assets/projects/seamcarving.png",
+      "description": "Implemented image resizing algorithm where image is reduced by one pixel of width or (height",
+      "demo": "https://www.example.com",
+      "skills": ["Java"],
+      "source": "https://www.github.com"
+    }
+  ]
