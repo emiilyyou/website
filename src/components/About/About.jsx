@@ -6,10 +6,9 @@ import styles from "./About.module.css";
 export const About = () => {
     return (
         <section className={styles.container} id="about"> 
-            <div className={styles.blur}> / </div>
             <h2 className={styles.title}> About</h2>
             <div className={styles.content}>
-                <img src="/website/assets/about/self.png" className={styles.profilePic} alt="profile picture" />
+                <img src="assets/about/self.png" className={styles.profilePic} alt="profile picture" />
 
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
