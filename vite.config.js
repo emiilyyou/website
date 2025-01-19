@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/website/',  
 
   plugins: [
-    react(),  // Add the react plugin here
+    react(),  
 
     // Inject <base> tag dynamically
     {
@@ -14,7 +14,7 @@ export default defineConfig({
       transformIndexHtml(html) {
         return html.replace(
           /<head>/,
-          `<head><base href="/website/" />` // Adjust this to match your GitHub Pages repo name
+          `<head><base href="/website/" />` 
         );
       },
     },

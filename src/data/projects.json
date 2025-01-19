@@ -5,14 +5,14 @@
         "description": "Built a personal portfolio showcasing previous experiences & projects",
         "skills": ["React", "JavaScript", "CSS"],
         "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://emiilyyou.github.io/website/"
     },
     {
       "title": "Fraud Detection",
       "imageSrc": "assets/projects/fraud-detection.png",
       "description": "Implemented a machine learning model to detect fraud credit card transactions",
       "skills": ["Java"],
-      "source": "https://www.github.com"
+      "source": "https://github.com/emiilyyou/fraudDetection"
     },
     {
       "title": "Seam Carving",
@@ -20,6 +20,6 @@
       "description": "Implemented image resizing algorithm where image is reduced by one pixel of width or (height",
       "demo": "https://www.example.com",
       "skills": ["Java"],
-      "source": "https://www.github.com"
+      "source": "https://github.com/emiilyyou/seamCarving"
     }
   ]
