@@ -1,80 +1,118 @@
 @import "../../vars.css";
 
-.container{
+.card {
+    flex: 1 1 300px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
-    border-radius: 10px;
-    background: linear-gradient(
-        180deg, 
-        hsl(222, 64%, 86%),
-        rgb(255, 255, 255) 100%
-    );    
-    padding: 18px 24px;
-    max-width: 345px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.image{
-    margin-bottom: 26px;
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.imageContainer {
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.image {
     width: 100%;
-    max-width: 300px;
-    animation-name: zoom;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    height: auto;
+    object-fit: cover;
+    display: block;
 }
 
-/* define floating animation */
-@keyframes zoom {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(0.95)
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-
-.title{
-    font-size: 17px;
-    font-weight: 700;
-}
-
-.description{
-    margin-top: 6px;
-    font-size: 17px;
-    font-weight: 400;
-}
-
-.skills{
+.content {
+    padding: 15px 0 0 0;
     width: 100%;
-    margin-top: 14px;
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 6px;
-    list-style: none;
 }
 
-.skill{
-    font-size: 17px;
-    font-weight: 400;
-}
-
-.links{
-    width: 100%;
-    margin-top: 26px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.link{
-    text-decoration: none;
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
     color: var(--color-text);
-    font-size: 17px;
-    font-weight: 600px;
 }
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 10px;
+    color: black;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+.skill {
+    text-align: center;
+    padding: 10px;
+    border-radius: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 140px;
+    background-color: #f5f5f7;
+    color: #333;
+    list-style: none;
+    
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.linkText {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.linkText:hover {
+    color: black;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 830px) {
+    .imageContainer {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+

@@ -6,33 +6,30 @@ import styles from "./About.module.css";
 export const About = () => {
     return (
         <section className={styles.container} id="about"> 
-            <h2 className={styles.title}> About</h2>
+            <h2 className={styles.title}> ABOUT</h2>
             <div className={styles.content}>
-                <img src="assets/about/self.png" className={styles.profilePic} alt="profile picture" />
+                <img src="assets/about/profilepic.png" className={styles.profilePic} alt="profile picture" />
 
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
                     <div className={styles.aboutItemText}>
-                        <p> I'm a student at Princeton University studying Computer Science 
-                            with a minor in Finance.</p>
+                        <p> I'm Emily, a student at Princeton University studying Computer Science with a minor in Finance.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <div className={styles.aboutItemText}>
-                        <p> Growing up, I’ve always expressed my creativity through creation and 
-                            design as I frequently arranged stickers on random stationery/objects 
-                            around the house and made friendship bracelets. </p>
+                        <p> Growing up, I’ve always enjoyed creating and designing products to express my creativity. From collecting
+                            stickers and stationery to making countless friendship bracelets, I sought new ways to uplift myself and 
+                            others. </p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <div className={styles.aboutItemText}>
-                        <p> As I grew older, I shifted my focus from creating tangible products to digital 
-                            applications when I recognized the power of leveraging design and creation
-                            to bring widespread joy to communities, namely graphic design for my blog Function of Derm 
-                            to mitigate the gap between the skin and misinformation or data analysis to convey 
-                            market research and data. I soon discovered Software Engineering as a medium in which I 
-                            can continue to leverage my design skills to create applications that not only solve problems 
-                            but also create a profound impact on communities. </p>
+                        <p> Eventually, I recognized the power of harnessing my experiences to continue transforming experiences for others.
+                            Shifting away from tangible products, I discovered software engineering & design as a pathway to 
+                            continue using my creativity and problem-solving skills to create solutions for different communities. By honing in on people's needs, I aim 
+                            to offer innovative solutions that improve and brings widespread joy to others.
+                        </p>
                     </div>
                 </li>
             </ul>

@@ -14,7 +14,6 @@ export const Hero = () => {
                 and <a href="https://www.hackprinceton.com/"> HackPrinceton </a></small>
             </div>
             <img src="assets/hero/miffy.svg" className={styles.miffy} alt="miffy" />
-            <div className={styles.blur} />
     
         </section>
     );

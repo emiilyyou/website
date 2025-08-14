@@ -2,10 +2,19 @@
     {
         "title": "Portfolio",
         "imageSrc": "assets/projects/miffy.svg",
-        "description": "Built a personal portfolio showcasing previous experiences & projects",
+        "description": "Showcasing previous experiences and projects using data from JSON files",
         "skills": ["React", "JavaScript", "CSS"],
         "demo": "https://www.example.com",
         "source": "https://emiilyyou.github.io/website/"
+    },
+    {
+        "title": "Weather Tracker",
+        "imageSrc": "assets/projects/weather-app.png",
+        "description": "Display local weather conditions after extracting data with an API",
+        "skills": ["JavaScript", "HTML", "CSS"],
+        "demo": "https://www.example.com",
+        "source": "https://emiilyyou.github.io/website/"
+          
     },
     {
       "title": "Fraud Detection",
@@ -17,7 +26,7 @@
     {
       "title": "Seam Carving",
       "imageSrc": "assets/projects/seamcarving.png",
-      "description": "Implemented image resizing algorithm where image is reduced by one pixel of width or (height",
+      "description": "Implemented image resizing algorithm where a W-by-H image is resized after removing a seam",
       "demo": "https://www.example.com",
       "skills": ["Java"],
       "source": "https://github.com/emiilyyou/seamCarving"

@@ -1,10 +1,10 @@
 [
     {
-      "role": "Software Developer",
+      "role": "Lead Software Developer",
       "organization": "Hoagie Club",
-      "startDate": "Sep 2023",
+      "startDate": "Sep 2024",
       "endDate": "Present",
-      "experiences": ["Designing an application that assists students with planning their 4-year academic trajectories"],
+      "experiences": ["Design and implement features to streamline academic course planning"],
       "link": "https://club.hoagie.io/",
       "imageSrc": "assets/experience/hoagielogo.png"
     },
@@ -13,8 +13,17 @@
       "organization": "HackPrinceton",
       "startDate": "Feb 2024",
       "endDate": "Present",
-      "experiences": ["Creating a full-stack website that allows hackers to register for biannual hackathon"],
+      "experiences": ["Create a full-stack application to assist hackers with hackathon registration"],
       "link": "https://www.hackprinceton.com/",
-      "imageSrc": "assets/experience/hackprinceton-logo.png"
+      "imageSrc": "assets/experience/f25-hp-logo.png"
+    },
+    {
+      "role": "Data Analytics Intern",
+      "organization": "Union Settlement",
+      "startDate": "Jun 2025",
+      "endDate": "Aug 2025",
+      "experiences": ["Developed site-specific insights and propose new initiatives by visualizing attendance, test scores, and demographic data using Python to produce a data-driven outcomes report for internal strategy and in funder engagement"],
+      "imageSrc": "assets/experience/unionsettlement-graph.png"
+
     }
   ]

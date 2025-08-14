@@ -25,7 +25,7 @@ export const Experience = () => {
     return (
         <section className={styles.container} id="experience">
             <div className={styles.blur} />
-            <h2 className={styles.title}> Experience </h2>
+            <h2 className={styles.title}> EXPERIENCE </h2>
             <div className={styles.content}> 
                 <div className={styles.skills}> 
                     {skills.map((skill, id) => {
@@ -34,12 +34,12 @@ export const Experience = () => {
                         return (
                             <div key={id} className={styles.skill}> 
                                 <div>
-                                    <img className={styles.skillImageContainer}
+                                    <img className={styles.skillImageWrapper}
                                         src={skillsImage} 
                                         alt={skill.title} 
                                     />
                                 </div>
-                                <p> {skill.title} </p>
+                                <p className={styles.skillTitle}> {skill.title} </p>
                                 </div>
                         );
                     })}
@@ -49,14 +49,15 @@ export const Experience = () => {
                         // dynamically import image
                         const historyImage = importImage(historyItem.imageSrc); 
                         return (
-                            <li key={id} className={styles.historyItem}>
+                            <li key={id} className={styles.historyCard}>
                                 <a href={historyItem.link} className={styles.link}> 
                                     <img 
+                                        className={styles.historyImage}
                                         src={historyImage} 
                                         alt={historyItem.organization} 
                                 /> </a>
                                 
-                                <div className={styles.historyItemDetails}>
+                                <div className={styles.historyDetails}>
                                     <h3> {`${historyItem.role}, 
                                     ${historyItem.organization}`} 
                                     </h3>

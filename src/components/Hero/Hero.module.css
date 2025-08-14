@@ -6,8 +6,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 49px;
-    z-index: 1;
+    margin-top: 45px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -17,7 +16,6 @@
     flex-direction: column;
     align-items: flex-start;
     color: var(--color-text);
-    z-index: 1;
 }
 
 .title{
@@ -29,7 +27,6 @@
 .description{
     font-size: 20px;
     margin-bottom: 25px;
-   
 }
 
 .header{
@@ -38,7 +35,6 @@
 
 .miffy{
     width: 20%;
-    z-index: 1;
     margin-right: 90px;
 
     animation-name: floating;
@@ -60,18 +56,6 @@
     }
 }
 
-.blur{
-    position: absolute;
-    width: 50vw;
-    height: 40vw;
-    min-width: 350px;
-    top: -128px;
-    left: 10vw;
-    border-radius: 764px;
-    background: rgb(238, 212, 250);
-    filter: blur(100px);
-    z-index: 0;
-}
 
 @media screen and (max-width: 830px) {
     .container{

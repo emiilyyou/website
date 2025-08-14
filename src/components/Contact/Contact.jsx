@@ -16,7 +16,7 @@ export const Contact = () => {
                     </h2>
                 </div>
                 <p> Let's chat about coding, design, food, cdramas, or music ౨ৎ! </p>
-                <small> &copy; Made by Emily ౨ৎ 2024</small>
+                <small> &copy; Made by Emily ౨ৎ 2025</small>
             </div>
         </footer>
     );

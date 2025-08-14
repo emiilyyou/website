@@ -8,7 +8,6 @@
     color: black;
     background: var(--color-primary);
     filter: brightness(165%);
-
 }
 
 .text{
@@ -29,14 +28,12 @@
 .text h2{
     margin-top: 50px;
     margin-left: 700px;
-    letter-spacing: 2px;
     color: black;
 }
 
 .text h1{
     margin-left: 60px;
     margin-top: 50px;
-    letter-spacing: 1.2px;
 }
 
 .text p{
