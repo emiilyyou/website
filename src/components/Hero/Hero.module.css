@@ -62,6 +62,10 @@
         flex-direction: column-reverse;
     }
 
+    .title{
+        text-align: center;
+    }
+
     .content{
         align-items: center;
     }

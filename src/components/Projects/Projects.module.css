@@ -27,6 +27,11 @@
   
 /* Responsive for smaller screens */
 @media screen and (max-width: 830px) {
+
+    .title{
+        text-align: center;
+    }
+    
     .container {
       margin-left: 5%;
       margin-right: 5%;
@@ -39,6 +44,8 @@
 }
   
 @media screen and (max-width: 480px) {
+
+    
     .projects {
       grid-template-columns: 1fr;
       gap: 15px;
