@@ -2,11 +2,20 @@
     {
         "title": "Portfolio",
         "imageSrc": "assets/projects/miffy.svg",
-        "description": "Showcasing previous experiences and projects using data from JSON files",
+        "description": "Showcase previous experiences and projects using data from JSON files",
         "skills": ["React", "JavaScript", "CSS"],
         "demo": "https://www.example.com",
         "source": "https://emiilyyou.github.io/website/"
     },
+    {
+      "title": "Album Finder",
+      "imageSrc": "assets/projects/spotify.png",
+      "description": "Find albums of any Spotify artist through data retrieval",
+      "skills": ["JavaScript", "React", "HTML", "CSS"],
+      "demo": "https://www.example.com",
+      "source": "https://emiilyyou.github.io/website/"
+        
+  },
     {
         "title": "Weather Tracker",
         "imageSrc": "assets/projects/weather-app.png",

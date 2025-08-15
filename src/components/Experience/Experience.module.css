@@ -131,14 +131,21 @@
 }
 
 @media screen and (max-width: 830px) {
-    .title{
-        text-align: center;
+
+    .container{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 275px;
     }
     
     .content {
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+
+    .title{
+        text-align: center;
     }
 
     .skills {

@@ -1,13 +1,11 @@
 @import "../../vars.css";
 
 .container{
-    color: var(--color--text);
     margin-top: 120px;
     display: flex;
     gap: 10px;
-    color: black;
-    background: var(--color-primary);
-    filter: brightness(165%);
+    color: white;
+    background: var(--color-secondary);
 }
 
 .text{
@@ -28,7 +26,6 @@
 .text h2{
     margin-top: 50px;
     margin-left: 700px;
-    color: black;
 }
 
 .text h1{
@@ -56,7 +53,7 @@
 }
 
 .link a{
-    color: var(--color-text);
+    color: white;
     font-size: 20px;
     margin-top: 5px;
 }

@@ -64,7 +64,6 @@
 
 @media screen and (max-width: 830px) {
     .container{
-        background-color: transparent;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -76,17 +75,15 @@
     .title{
         text-align: center;
     }
+
     .profilePic{
-        display: none;
+        width: 30%;
+        display: block;
+        margin: 0 auto;
     }
 
     .aboutItems{
-        margin-top: 29px;
-    }
-
-    .aboutItem{
-        padding-left: 0;
-        padding-right: 0;
+        margin-top: 20px;
     }
 
     .aboutItemText{
