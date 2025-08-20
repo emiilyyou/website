@@ -13,16 +13,16 @@
       "description": "Find albums of any Spotify artist through data retrieval",
       "skills": ["JavaScript", "React", "HTML", "CSS"],
       "demo": "https://www.example.com",
-      "source": "https://emiilyyou.github.io/website/"
+      "source": "https://github.com/emiilyyou/album-finder"
         
-  },
+    },
     {
-        "title": "Weather Tracker",
-        "imageSrc": "assets/projects/weather-app.png",
-        "description": "Display local weather conditions after extracting data with an API",
-        "skills": ["JavaScript", "HTML", "CSS"],
-        "demo": "https://www.example.com",
-        "source": "https://emiilyyou.github.io/website/"
+      "title": "Weather Tracker",
+      "imageSrc": "assets/projects/weather-app.png",
+      "description": "Display local weather conditions after extracting data with an API",
+      "skills": ["JavaScript", "HTML", "CSS"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/emiilyyou/weather-tracker"
           
     },
     {
@@ -40,4 +40,4 @@
       "skills": ["Java"],
       "source": "https://github.com/emiilyyou/seamCarving"
     }
-  ]
+]
