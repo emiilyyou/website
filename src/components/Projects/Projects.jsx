@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import { useState,useEffect } from "react";
 
 import projectsData from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";

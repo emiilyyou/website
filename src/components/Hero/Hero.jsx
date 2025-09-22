@@ -1,12 +1,10 @@
-import React from "react";
-
 import styles from "./Hero.module.css";
 
 export const Hero = () => {
     return (
         <section className={styles.container}> 
             <div className={styles.content}>
-                <h1 className={styles.title}> Hi! I'm Emily ✧･ﾟ</h1>
+                <h1 className={styles.title}> Hi! I'm Emily ⋆⭒˚.⋆. </h1>
                 <p className={styles.description}> I'm a software engineer who loves leveraging technology to formulate human-centered solutions 
                     that speak to the needs of diverse communities. 
                 </p> 

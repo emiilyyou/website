@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./About.module.css";
 
 
@@ -8,7 +6,7 @@ export const About = () => {
         <section className={styles.container} id="about"> 
             <h2 className={styles.title}> ABOUT</h2>
             <div className={styles.content}>
-                <img src="assets/about/profilepic.png" className={styles.profilePic} alt="profile picture" />
+                <img src="assets/about/profilepic.jpg" className={styles.profilePic} alt="profile picture" />
 
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
